@@ -5,7 +5,7 @@ int main()
 	printf("enter the watts of power consumed:");
 	scanf("%d",&a);
 	if(a==0)
-	print("no chanrges");
+	print("no charges");
 	else if(0<a<100)
 	{
 	b=a*4
