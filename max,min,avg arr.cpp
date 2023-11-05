@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main()
 {
-canf("%d",&n);
+	int i,n,a[n],max,min,c;
 	printf("enter the elements in the array\n");
 	for(i=0;i<n;i++)
-	scanf("%d",&a[i])	int i,n,a[n],max,min,c;
+	scanf("%d",&a[i])	
 	c=0;
 	printf("enter the value of n\n");
-	s;
+	scand("%d",&n);
 	max=a[0];
 	min=a[0];
 	for(i=0;i<n;i++)
