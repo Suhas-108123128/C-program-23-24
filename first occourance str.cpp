@@ -1,19 +1,23 @@
 #include<stdio.h>
 int main()
 {
-	int i;
+	int i,a;
+	a=0;
 	char c;
-	char str[100];
-	printf("enter the string:");
-	scanf("%s",str);
-	printf("enter the character:");
-	scanf("%c",&c);
+	char str[5]="abcd";
+	c='b';
 	for(i=0;str[i]!='\0';i++)
 	{
 		if(str[i]==c)
 		{
-		printf("%c%d",c,i);
+		a++;
+		break;
 		}
+		
 	}
+	if(a==0)
+	printf("character not found");
+	else
+	printf("%c%d",c,a);
 }
 	
